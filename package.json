@@ -1,0 +1,28 @@
+{
+  "name": "translator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "commit": "cz",
+    "pre-commit": "lint-staged",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/lint": "^19.6.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "json-server": "^1.0.0-beta.3",
+    "lint-staged": "^15.3.0",
+    "prettier": "^3.4.2",
+    "sass": "^1.83.1",
+    "vite": "^6.0.7"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.15.10"
+  }
+}
