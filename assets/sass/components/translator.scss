@@ -1,5 +1,5 @@
 .translator {
-  user-select: none;
+  user-select: text;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -55,7 +55,6 @@
     cursor: pointer;
 
     & option {
-      background-color: var(--blue-background);
       color: var(--grey-text);
     }
 
@@ -73,6 +72,7 @@
     color: var(--white);
     border: none;
     border-radius: 5px;
+    font-weight: bold;
     cursor: pointer;
     transition: 0.1s ease;
 
